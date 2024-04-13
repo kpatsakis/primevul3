@@ -1,0 +1,4 @@
+ConvolverNode::~ConvolverNode()
+{
+    uninitialize();
+}

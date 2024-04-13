@@ -1,0 +1,1 @@
+  WorkerDevToolsSanityTest() : window_(NULL) {}

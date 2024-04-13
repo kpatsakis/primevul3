@@ -1,0 +1,1 @@
+PluginInfoMessageFilter::~PluginInfoMessageFilter() {}

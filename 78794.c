@@ -1,0 +1,3 @@
+SharedMemory::~SharedMemory() {
+  Close();
+}

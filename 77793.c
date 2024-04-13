@@ -1,0 +1,2 @@
+ConfirmEmailDialogDelegate::~ConfirmEmailDialogDelegate() {
+}

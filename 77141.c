@@ -1,0 +1,1 @@
+MediaStreamImpl::VideoRendererWrapper::VideoRendererWrapper() {}

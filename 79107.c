@@ -1,0 +1,3 @@
+WebURLLoaderImpl::~WebURLLoaderImpl() {
+  cancel();
+}

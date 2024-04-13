@@ -1,0 +1,46 @@
+GPMF_ERR GPMF_Reserved(uint32_t key)
+{
+	if(key == GPMF_KEY_DEVICE)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_DEVICE_ID)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_DEVICE_NAME)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_STREAM)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_STREAM_NAME)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_SI_UNITS)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_UNITS)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_SCALE)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_TYPE)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_TOTAL_SAMPLES)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_TICK)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_TOCK)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_EMPTY_PAYLOADS)
+		return GPMF_ERROR_RESERVED;
+
+	if(key == GPMF_KEY_REMARK)
+		return GPMF_ERROR_RESERVED;
+
+	return GPMF_OK;
+}

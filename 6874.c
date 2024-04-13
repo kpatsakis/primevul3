@@ -1,0 +1,1 @@
+  const std::string& expectedSha256Digest() const { return expected_sha256_digest_; }

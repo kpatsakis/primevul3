@@ -1,0 +1,2 @@
+ImageDataNaClBackend::~ImageDataNaClBackend() {
+}

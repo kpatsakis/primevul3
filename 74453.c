@@ -1,0 +1,4 @@
+void XMLTokenizer::endDocument()
+{
+    exitText();
+}

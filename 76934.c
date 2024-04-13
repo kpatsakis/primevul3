@@ -1,0 +1,4 @@
+void EditorClientBlackBerry::toggleGrammarChecking()
+{
+    notImplemented();
+}

@@ -1,0 +1,4 @@
+    virtual ~ContextLifetimeTestWebFrameClient()
+    {
+        reset();
+    }

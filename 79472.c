@@ -1,0 +1,16 @@
+RenderLayerCompositor::RenderLayerCompositor(RenderView* renderView)
+    : m_renderView(renderView)
+    , m_hasAcceleratedCompositing(true)
+    , m_compositingTriggers(static_cast<ChromeClient::CompositingTriggerFlags>(ChromeClient::AllTriggers))
+    , m_showRepaintCounter(false)
+    , m_needsToRecomputeCompositingRequirements(false)
+    , m_needsToUpdateLayerTreeGeometry(false)
+    , m_compositing(false)
+    , m_compositingLayersNeedRebuild(false)
+    , m_forceCompositingMode(false)
+    , m_inPostLayoutUpdate(false)
+    , m_needsUpdateCompositingRequirementsState(false)
+    , m_isTrackingRepaints(false)
+    , m_rootLayerAttachment(RootLayerUnattached)
+{
+}

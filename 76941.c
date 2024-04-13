@@ -1,0 +1,3 @@
+void AccessibilityUIElement::addSelection()
+{
+}

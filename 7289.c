@@ -1,0 +1,1 @@
+inline long long hufCode(long long code) { return code >> 6; }

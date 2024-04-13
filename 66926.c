@@ -1,0 +1,3 @@
+bool jsvIsMemoryFull() {
+  return !jsVarFirstEmpty;
+}

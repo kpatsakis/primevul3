@@ -1,0 +1,2 @@
+void ImageDataPlatformBackend::Unmap() {
+}

@@ -1,0 +1,1 @@
+  bool expectedPrivateKeyMethod() const { return expect_private_key_method_; }

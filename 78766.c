@@ -1,0 +1,4 @@
+void DateTimeChooserImpl::closePopup()
+{
+    endChooser();
+}

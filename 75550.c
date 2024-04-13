@@ -1,0 +1,2 @@
+ExtensionService::NaClModuleInfo::NaClModuleInfo() {
+}

@@ -1,0 +1,23 @@
+SavePackage::SavePackage(WebContents* web_contents,
+                         const FilePath& file_full_path,
+                         const FilePath& directory_full_path)
+    : WebContentsObserver(web_contents),
+      file_manager_(NULL),
+      download_manager_(NULL),
+      download_(NULL),
+      saved_main_file_path_(file_full_path),
+      saved_main_directory_path_(directory_full_path),
+      start_tick_(base::TimeTicks::Now()),
+      finished_(true),
+      mhtml_finishing_(false),
+      user_canceled_(false),
+      disk_error_occurred_(false),
+      save_type_(SAVE_PAGE_TYPE_UNKNOWN),
+      all_save_items_count_(0),
+      file_name_set_(&FilePath::CompareLessIgnoreCase),
+      wait_state_(INITIALIZE),
+      contents_id_(0),
+      unique_id_(g_save_package_id++),
+      wrote_to_completed_file_(false),
+      wrote_to_failed_file_(false) {
+}

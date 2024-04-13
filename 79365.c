@@ -1,0 +1,3 @@
+BitStack::~BitStack()
+{
+}

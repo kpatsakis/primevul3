@@ -1,0 +1,1 @@
+  bool ocspStaplingEnabled() const { return ocsp_stapling_enabled_; }

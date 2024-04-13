@@ -1,0 +1,3 @@
+void RenderLayerCompositor::frameViewDidLayout()
+{
+}

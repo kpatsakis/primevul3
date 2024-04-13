@@ -1,0 +1,2 @@
+DevToolsWindow::FrontendWebContentsObserver::~FrontendWebContentsObserver() {
+}

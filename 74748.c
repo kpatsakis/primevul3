@@ -1,0 +1,3 @@
+void RenderView::DidStopLoadingForPlugin() {
+  didStopLoading();
+}

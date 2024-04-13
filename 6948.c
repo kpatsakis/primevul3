@@ -1,0 +1,1 @@
+  const std::vector<std::string>& expectedLocalUri() const { return expected_local_uri_; }

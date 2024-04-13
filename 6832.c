@@ -1,0 +1,1 @@
+  Network::ConnectionEvent expectedServerCloseEvent() const { return expected_server_close_event_; }

@@ -1,0 +1,2 @@
+ExtensionService::ExtensionRuntimeData::~ExtensionRuntimeData() {
+}

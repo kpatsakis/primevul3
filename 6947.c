@@ -1,0 +1,1 @@
+  const std::string& expectedSerialNumber() const { return expected_serial_number_; }

@@ -1,0 +1,1 @@
+RenderThreadImpl::HistogramCustomizer::~HistogramCustomizer() {}

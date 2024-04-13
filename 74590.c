@@ -1,0 +1,4 @@
+void FrameLoader::loadDone()
+{
+    checkCompleted();
+}

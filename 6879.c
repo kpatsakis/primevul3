@@ -1,0 +1,1 @@
+  bool expectNoCertChain() const { return expect_no_cert_chain_; }

@@ -1,0 +1,1 @@
+  bool expectSuccess() const { return expect_success_; }

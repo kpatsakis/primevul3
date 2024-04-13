@@ -1,0 +1,1 @@
+  Network::Address::IpVersion version() const { return version_; }

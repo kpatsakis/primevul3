@@ -1,0 +1,3 @@
+CSSComputedStyleDeclaration::~CSSComputedStyleDeclaration()
+{
+}

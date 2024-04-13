@@ -1,0 +1,3 @@
+CompositorLock::~CompositorLock() {
+  CancelLock();
+}

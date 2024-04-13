@@ -1,0 +1,2 @@
+PluginInfoMessageFilter::Context::~Context() {
+}

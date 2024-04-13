@@ -1,0 +1,3 @@
+void RenderViewImpl::DidHandleKeyEvent() {
+  ClearEditCommands();
+}

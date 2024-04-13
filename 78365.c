@@ -1,0 +1,3 @@
+void RenderThreadImpl::OnUpdateTimezone() {
+  NotifyTimezoneChange();
+}

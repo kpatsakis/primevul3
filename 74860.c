@@ -1,0 +1,42 @@
+RenderView::RenderView(RenderThreadBase* render_thread,
+                       const WebPreferences& webkit_preferences,
+                       int64 session_storage_namespace_id)
+    : RenderWidget(render_thread, WebKit::WebPopupTypeNone),
+      webkit_preferences_(webkit_preferences),
+      send_content_state_immediately_(false),
+      enabled_bindings_(0),
+      send_preferred_size_changes_(false),
+      script_can_close_(true),
+      is_loading_(false),
+      navigation_gesture_(NavigationGestureUnknown),
+      opened_by_user_gesture_(true),
+      opener_suppressed_(false),
+      page_id_(-1),
+      last_page_id_sent_to_browser_(-1),
+      last_indexed_page_id_(-1),
+      last_top_level_navigation_page_id_(-1),
+      history_list_offset_(-1),
+      history_list_length_(0),
+      has_unload_listener_(false),
+#if defined(OS_MACOSX)
+      has_document_tag_(false),
+#endif
+      document_tag_(0),
+      cross_origin_access_count_(0),
+      same_origin_access_count_(0),
+      target_url_status_(TARGET_NONE),
+      spelling_panel_visible_(false),
+      view_type_(ViewType::INVALID),
+      browser_window_id_(-1),
+      ALLOW_THIS_IN_INITIALIZER_LIST(pepper_delegate_(this)),
+      ALLOW_THIS_IN_INITIALIZER_LIST(method_factory_(this)),
+      ALLOW_THIS_IN_INITIALIZER_LIST(translate_helper_(this)),
+      ALLOW_THIS_IN_INITIALIZER_LIST(password_autocomplete_manager_(this)),
+      ALLOW_THIS_IN_INITIALIZER_LIST(autofill_helper_(this)),
+      ALLOW_THIS_IN_INITIALIZER_LIST(cookie_jar_(this)),
+      ALLOW_THIS_IN_INITIALIZER_LIST(
+          notification_provider_(new NotificationProvider(this))),
+      session_storage_namespace_id_(session_storage_namespace_id),
+      decrement_shared_popup_at_destruction_(false) {
+  ClearBlockedContentSettings();
+}

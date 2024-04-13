@@ -1,0 +1,4 @@
+void RenderLayerCompositor::updateRootLayerAttachment()
+{
+    ensureRootLayer();
+}

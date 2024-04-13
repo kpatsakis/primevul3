@@ -1,0 +1,4 @@
+void EditorClientBlackBerry::didSetSelectionTypesForPasteboard()
+{
+    notImplemented();
+}

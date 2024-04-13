@@ -1,0 +1,2 @@
+void InterstitialPage::InterstitialPageRVHViewDelegate::GotFocus() {
+}

@@ -1,0 +1,1 @@
+NotificationObserver::~NotificationObserver() {}

@@ -1,0 +1,1 @@
+BeginInstallWithManifestFunction::~BeginInstallWithManifestFunction() {}

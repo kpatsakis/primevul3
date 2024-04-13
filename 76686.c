@@ -1,0 +1,2 @@
+BasePrefsChange::BasePrefsChange() {
+}

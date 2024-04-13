@@ -1,0 +1,12 @@
+GF_Err extr_Write(GF_Box *s, GF_BitStream *bs)
+{
+	GF_Err e;
+	GF_ExtraDataBox *ptr = (GF_ExtraDataBox *) s;
+	if (!s) return GF_BAD_PARAM;
+	if (ptr->feci) {
+		e = gf_isom_box_write((GF_Box *)ptr->feci, bs);
+		if (e) return e;
+	}
+	gf_bs_write_data(bs, ptr->data, ptr->data_length);
+	return GF_OK;
+}

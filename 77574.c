@@ -1,0 +1,2 @@
+BrowserNonClientFrameViewAura::~BrowserNonClientFrameViewAura() {
+}

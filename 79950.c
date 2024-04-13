@@ -1,0 +1,2 @@
+FileEnumerator::~FileEnumerator() {
+}

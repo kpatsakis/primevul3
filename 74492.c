@@ -1,0 +1,4 @@
+        virtual ~PendingCommentCallback() 
+        {
+            xmlFree(s);
+        }

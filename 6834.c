@@ -1,0 +1,1 @@
+  const std::string& expectedProtocolVersion() const { return expected_protocol_version_; }

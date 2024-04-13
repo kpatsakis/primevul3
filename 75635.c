@@ -1,0 +1,4 @@
+ContainerNode::~ContainerNode()
+{
+    removeAllChildren();
+}

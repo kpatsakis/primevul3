@@ -1,0 +1,2 @@
+CurrentHistoryCleaner::~CurrentHistoryCleaner() {
+}

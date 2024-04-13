@@ -1,0 +1,1 @@
+  const std::string& expectedClientStats() const { return expected_client_stats_; }

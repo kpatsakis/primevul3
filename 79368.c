@@ -1,0 +1,3 @@
+WordAwareIterator::~WordAwareIterator()
+{
+}

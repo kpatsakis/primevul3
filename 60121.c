@@ -1,0 +1,29 @@
+relay_command_to_string(uint8_t command)
+{
+  switch (command) {
+    case RELAY_COMMAND_BEGIN: return "BEGIN";
+    case RELAY_COMMAND_DATA: return "DATA";
+    case RELAY_COMMAND_END: return "END";
+    case RELAY_COMMAND_CONNECTED: return "CONNECTED";
+    case RELAY_COMMAND_SENDME: return "SENDME";
+    case RELAY_COMMAND_EXTEND: return "EXTEND";
+    case RELAY_COMMAND_EXTENDED: return "EXTENDED";
+    case RELAY_COMMAND_TRUNCATE: return "TRUNCATE";
+    case RELAY_COMMAND_TRUNCATED: return "TRUNCATED";
+    case RELAY_COMMAND_DROP: return "DROP";
+    case RELAY_COMMAND_RESOLVE: return "RESOLVE";
+    case RELAY_COMMAND_RESOLVED: return "RESOLVED";
+    case RELAY_COMMAND_BEGIN_DIR: return "BEGIN_DIR";
+    case RELAY_COMMAND_ESTABLISH_INTRO: return "ESTABLISH_INTRO";
+    case RELAY_COMMAND_ESTABLISH_RENDEZVOUS: return "ESTABLISH_RENDEZVOUS";
+    case RELAY_COMMAND_INTRODUCE1: return "INTRODUCE1";
+    case RELAY_COMMAND_INTRODUCE2: return "INTRODUCE2";
+    case RELAY_COMMAND_RENDEZVOUS1: return "RENDEZVOUS1";
+    case RELAY_COMMAND_RENDEZVOUS2: return "RENDEZVOUS2";
+    case RELAY_COMMAND_INTRO_ESTABLISHED: return "INTRO_ESTABLISHED";
+    case RELAY_COMMAND_RENDEZVOUS_ESTABLISHED:
+      return "RENDEZVOUS_ESTABLISHED";
+    case RELAY_COMMAND_INTRODUCE_ACK: return "INTRODUCE_ACK";
+    default: return "(unrecognized)";
+  }
+}

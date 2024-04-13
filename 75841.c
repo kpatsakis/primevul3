@@ -1,0 +1,2 @@
+PromptBrowserLoginFunction::~PromptBrowserLoginFunction() {
+}

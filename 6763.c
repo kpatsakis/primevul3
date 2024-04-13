@@ -1,0 +1,1 @@
+  const std::string& expectedSha1Digest() const { return expected_sha1_digest_; }

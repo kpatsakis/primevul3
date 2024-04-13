@@ -1,0 +1,1 @@
+void mz_free(void *p) { MZ_FREE(p); }

@@ -1,0 +1,1 @@
+mz_uint32 tdefl_get_adler32(tdefl_compressor *d) { return d->m_adler32; }

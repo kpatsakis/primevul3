@@ -1,0 +1,4 @@
+void DecodeGlobalConfig(void)
+{
+    DecodeTeredoConfig();
+}

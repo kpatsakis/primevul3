@@ -1,0 +1,1 @@
+  const std::string& expectedPeerCertChain() const { return expected_peer_cert_chain_; }

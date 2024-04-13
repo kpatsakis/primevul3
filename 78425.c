@@ -1,0 +1,4 @@
+ScriptController::~ScriptController()
+{
+    clearForClose(true);
+}

@@ -1,0 +1,2 @@
+OmniboxEditModel::State::~State() {
+}

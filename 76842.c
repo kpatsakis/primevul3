@@ -1,0 +1,3 @@
+RootWindowHostWin::~RootWindowHostWin() {
+  DestroyWindow(hwnd());
+}

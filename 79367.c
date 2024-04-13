@@ -1,0 +1,3 @@
+inline SearchBuffer::~SearchBuffer()
+{
+}

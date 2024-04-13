@@ -1,0 +1,1 @@
+  bool expectNoCert() const { return expect_no_cert_; }

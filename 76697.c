@@ -1,0 +1,2 @@
+BaseSettingChange::~BaseSettingChange() {
+}

@@ -1,0 +1,1 @@
+  const std::string& expectedServerCertDigest() const { return expected_server_cert_digest_; }

@@ -1,0 +1,1 @@
+  int expectedVerifyErrorCode() const { return expected_verify_error_code_; }

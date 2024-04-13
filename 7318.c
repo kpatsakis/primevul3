@@ -1,0 +1,1 @@
+inline long long hufLength(long long code) { return code & 63; }

@@ -1,0 +1,2 @@
+  virtual ~HttpProxyClientSocketPoolSpdy3Test() {
+  }

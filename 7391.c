@@ -1,0 +1,1 @@
+const char *mz_version(void) { return MZ_VERSION; }

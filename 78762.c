@@ -1,0 +1,3 @@
+void DelegatedFrameHost::WasResized() {
+  MaybeCreateResizeLock();
+}

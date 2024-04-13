@@ -1,0 +1,1 @@
+  const std::string& clientSession() const { return client_session_; }

@@ -1,0 +1,2 @@
+PluginObserver::~PluginObserver() {
+}
